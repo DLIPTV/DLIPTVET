@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+
+  <title>NIXATV - Premium IPTV Service Provider 2026</title>
+  <meta name="description" content="NIXATV is the ultimate IPTV service offering thousands of live channels, movies, and TV shows. Experience NIXATV premium streaming with zero buffering." />
+  <meta name="keywords" content="NIXATV, NIXATV IPTV, NIXATV subscription, NIXATV service, NIXATV channels, NIXATV review" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="" />
+  <link rel="canonical" href="https://nixatv.com/" />
+
+  <link rel="preload" as="image" href="/hero-bg-generated.png" fetchpriority="high" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="" />
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="" />
+  <meta property="og:image" content="" />
+
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="" />
+  <meta property="twitter:title" content="" />
+  <meta property="twitter:description" content="" />
+  <meta property="twitter:image" content="" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- Comprehensive JSON-LD Graph Schema -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://nixatv.com/#website",
+          "url": "https://nixatv.com/",
+          "name": "NIXATV",
+          "description": "Premium IPTV subscription service offering thousands of channels, VODs, and sports in HD/4K quality.",
+          "potentialAction": [
+            {
+              "@type": "SearchAction",
+              "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://nixatv.com/channels?q={search_term_string}"
+              },
+              "query-input": "required name=search_term_string"
+            }
+          ],
+          "inLanguage": "en-US"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://nixatv.com/#organization",
+          "name": "NIXATV Media",
+          "url": "https://nixatv.com/",
+          "logo": {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://nixatv.com/#/schema/logo/image/",
+            "url": "https://nixatv.com/",
+            "contentUrl": "https://nixatv.com/",
+            "width": 512,
+            "height": 512,
+            "caption": "NIXATV Logo"
+          },
+          "image": {
+            "@id": "https://nixatv.com/#/schema/logo/image/"
+          },
+          "sameAs": [
+            "https://twitter.com/nixatv",
+            "https://www.facebook.com/nixatv"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+1 647 366 5409",
+            "contactType": "customer service",
+            "areaServed": "World",
+            "availableLanguage": ["English", "French", "Spanish", "German", "Arabic"]
+          }
+        },
+        {
+          "@type": "Product",
+          "@id": "https://nixatv.com/#product",
+          "url": "https://nixatv.com/",
+          "name": "NIXATV Premium IPTV Service Subscription",
+          "image": "https://nixatv.com/",
+          "brand": {
+            "@type": "Brand",
+            "name": "NIXATV"
+          },
+          "description": "Unlock 35,000+ live channels and 150,000+ VODs in 4K/FHD with NIXATV Premium IPTV Service.",
+          "offers": {
+            "@type": "Offer",
+            "price": "19.99",
+            "priceCurrency": "USD",
+            "url": "https://nixatv.com/#pricing",
+            "availability": "https://schema.org/InStock",
+            "priceValidUntil": "2026-12-31",
+            "shippingDetails": {
+              "@type": "OfferShippingDetails",
+              "shippingRate": {
+                "@type": "MonetaryAmount",
+                "value": "0",
+                "currency": "USD"
+              },
+              "shippingDestination": {
+                "@type": "DefinedRegion",
+                "addressCountry": "US"
+              },
+              "deliveryTime": {
+                "@type": "ShippingDeliveryTime",
+                "handlingTime": { "@type": "QuantitativeValue", "minValue": "0", "maxValue": "1", "unitCode": "HUR" },
+                "transitTime": { "@type": "QuantitativeValue", "minValue": "0", "maxValue": "1", "unitCode": "HUR" }
+              }
+            },
+            "hasMerchantReturnPolicy": {
+              "@type": "MerchantReturnPolicy",
+              "applicableCountry": "US",
+              "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+              "merchantReturnDays": "7",
+              "returnMethod": "https://schema.org/ReturnByMail",
+              "returnFees": "https://schema.org/FreeReturn"
+            }
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "5240",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "review": [
+            {
+              "@type": "Review",
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+              },
+              "author": {
+                "@type": "Person",
+                "name": "Michael S."
+              },
+              "reviewBody": "Best IPTV service I have used. Zero buffering."
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://nixatv.com/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is NIXATV?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "NIXATV is a premium streaming service that allows you to watch live TV channels, movies, and series directly over the internet without the need for traditional cable or satellite."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What Internet speed do I need for IPTV?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We recommend a minimum of 25 Mbps for 4K streaming and 15 Mbps for HD content to ensure a smooth, buffer-free experience."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do I need a VPN for NIXATV?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A VPN is not mandatory, but we recommend it if your ISP throttles IPTV traffic or if you want extra privacy. Our service works with all major VPN providers."
+              }
+            },
+
+            {
+              "@type": "Question",
+              "name": "How do I activate my IPTV subscription?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Once you purchase a plan, you will receive an activation code or M3U link via email or WhatsApp. Simply enter this into your IPTV player of choice to start watching."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I use my subscription on multiple devices?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Standard plans are for one active connection at a time. However, you can set it up on multiple devices. For simultaneous streaming, please contact support for a multi-room plan."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://nixatv.com/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://nixatv.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Channels",
+              "item": "https://nixatv.com/channels"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+
+  <!-- Tailwind CSS CDN removed in favor of local build -->
+
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.561.0",
+    "vite": "https://esm.sh/vite@^7.2.7",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.2"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-at51K6X5.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-CpZjn0cT.css">
+</head>
+
+<body>
+
+  <div id="root"></div>
+</body>
+
+</html>
