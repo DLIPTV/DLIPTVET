@@ -213,6 +213,31 @@
   }, 500);
 })();
 </script>
+<script>
+// Override Supabase settings — replace NIXATV in fetched data
+(function() {
+  var origFetch = window.fetch;
+  window.fetch = function(url, opts) {
+    return origFetch(url, opts).then(function(resp) {
+      var origJson = resp.json.bind(resp);
+      resp.json = function() {
+        return origJson().then(function(data) {
+          if (data && data.site_name === 'NIXATV') {
+            data.site_name = 'DL IPTV';
+          }
+          // Also fix any nested NIXATV strings
+          var str = JSON.stringify(data);
+          if (str.indexOf('NIXATV') !== -1) {
+            return JSON.parse(str.replace(/NIXATV/g, 'DL IPTV'));
+          }
+          return data;
+        });
+      };
+      return resp;
+    });
+  };
+})();
+</script>
 </body>
 
 </html>
