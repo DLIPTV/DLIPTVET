@@ -196,6 +196,23 @@
     if (e.target.tagName === 'IMG') e.preventDefault();
   }, true);
   </script>
+
+<script>
+(function() {
+  var int = setInterval(function() {
+    var h1s = document.querySelectorAll('h1, h2, .text-brand-gold, .text-4xl, .text-5xl, .text-6xl');
+    for (var i = 0; i < h1s.length; i++) {
+      var el = h1s[i];
+      if (el.textContent.indexOf('NIXATV') !== -1) {
+        el.textContent = el.textContent.replace(/NIXATV/g, 'DL IPTV');
+      }
+    }
+    // Also fix the main hero heading
+    var all = document.body.innerText;
+    if (all.indexOf('NIXATV') === -1) clearInterval(int);
+  }, 500);
+})();
+</script>
 </body>
 
 </html>
